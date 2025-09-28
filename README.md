@@ -1,10 +1,55 @@
-NodeJS + Express
-======================
-This is a simple NodeJS + Express application. This application serves as a basic template for a web server using NodeJS for the backend, Express as the web application framework.
+Employee Management CLI
 
-What does this application do?
--------------------------------
-This application serves a simple web server that listens on defined port, default: `3000`.
+A simple Node.js command-line Employee Management System using readline. This project demonstrates basic CRUD operations (Create, Read, Delete) with a text-based menu.
+
+Features
+
+Add employees with unique IDs
+
+List all employees
+
+Remove employees by ID
+
+Error handling for duplicates or invalid IDs
+
+Interactive CLI menu
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/employee-management-cli.git
+cd employee-management-cli
+
+
+Install Node.js (if not already installed).
+
+Usage
+
+Run the project with:
+
+node index.js
+
+
+Follow the on-screen menu to add, list, or remove employees.
+
+Example
+Employee Management System
+1. Add Employee
+2. List Employees
+3. Remove Employee
+4. Exit
+Enter your choice:
+
+Technologies
+
+Node.js
+
+readline (for CLI input/output)
+
+License
+
+This project is open source under the MIT License.
 
 
 # How to run?
